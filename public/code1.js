@@ -26,6 +26,8 @@ gdjs.levelCode.GDNewSprite2Objects1= [];
 gdjs.levelCode.GDNewSprite2Objects2= [];
 gdjs.levelCode.GDBlackDecoratedButtonObjects1= [];
 gdjs.levelCode.GDBlackDecoratedButtonObjects2= [];
+gdjs.levelCode.GDBlackDecoratedButton2Objects1= [];
+gdjs.levelCode.GDBlackDecoratedButton2Objects2= [];
 
 
 gdjs.levelCode.mapOfGDgdjs_9546levelCode_9546GDNewSprite2Objects2Objects = Hashtable.newFrom({"NewSprite2": gdjs.levelCode.GDNewSprite2Objects2});
@@ -441,6 +443,27 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.levelCode.GDNewSprite
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("BlackDecoratedButton2"), gdjs.levelCode.GDBlackDecoratedButton2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.levelCode.GDBlackDecoratedButton2Objects1.length;i<l;++i) {
+    if ( gdjs.levelCode.GDBlackDecoratedButton2Objects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.levelCode.GDBlackDecoratedButton2Objects1[k] = gdjs.levelCode.GDBlackDecoratedButton2Objects1[i];
+        ++k;
+    }
+}
+gdjs.levelCode.GDBlackDecoratedButton2Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "level", false);
+}}
+
+}
+
+
+{
+
 
 let isConditionTrue_0 = false;
 {
@@ -468,6 +491,8 @@ gdjs.levelCode.GDNewSprite2Objects1.length = 0;
 gdjs.levelCode.GDNewSprite2Objects2.length = 0;
 gdjs.levelCode.GDBlackDecoratedButtonObjects1.length = 0;
 gdjs.levelCode.GDBlackDecoratedButtonObjects2.length = 0;
+gdjs.levelCode.GDBlackDecoratedButton2Objects1.length = 0;
+gdjs.levelCode.GDBlackDecoratedButton2Objects2.length = 0;
 
 gdjs.levelCode.eventsList0(runtimeScene);
 gdjs.levelCode.GDNewSpriteObjects1.length = 0;
@@ -484,6 +509,8 @@ gdjs.levelCode.GDNewSprite2Objects1.length = 0;
 gdjs.levelCode.GDNewSprite2Objects2.length = 0;
 gdjs.levelCode.GDBlackDecoratedButtonObjects1.length = 0;
 gdjs.levelCode.GDBlackDecoratedButtonObjects2.length = 0;
+gdjs.levelCode.GDBlackDecoratedButton2Objects1.length = 0;
+gdjs.levelCode.GDBlackDecoratedButton2Objects2.length = 0;
 
 
 return;

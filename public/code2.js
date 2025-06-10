@@ -452,7 +452,8 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("time").setNumber(Math.floor(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "timer")));
+{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "timer");
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("time").setNumber(Math.floor(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "timer")));
 }
 { //Subevents
 gdjs.Game_32SceneCode.eventsList5(runtimeScene);} //End of subevents
