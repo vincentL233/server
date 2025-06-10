@@ -1,0 +1,20 @@
+POST http://127.0.0.1/rank HTTP/1.1
+Content-Type: application/json
+
+[
+  {
+    "name": "sample",
+    "rank": 1,
+    "scores": 170
+  },
+  {
+    "name": "sample1",
+    "rank": 1,
+    "scores": 100
+  },
+  {
+    "name": "sample2",
+    "rank": 1,
+    "scores": 200
+  }
+]
