@@ -456,7 +456,7 @@ for (var i = 0, k = 0, l = gdjs.levelCode.GDBlackDecoratedButton2Objects1.length
 }
 gdjs.levelCode.GDBlackDecoratedButton2Objects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "level", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "start", false);
 }}
 
 }
