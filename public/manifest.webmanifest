@@ -1,0 +1,15 @@
+{
+  "name": "明暗跳耀",
+  "short_name": "明暗跳耀",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "ChatGPT Image 2025年5月6日 上午11_47_32.png",
+        "sizes": "512x512"
+      }]
+}
