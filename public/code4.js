@@ -204,7 +204,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27503988);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23032796);
 }
 }
 if (isConditionTrue_0) {
@@ -253,7 +253,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27506156);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23034964);
 }
 }
 if (isConditionTrue_0) {
@@ -288,7 +288,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Game_32Scene2Code.mapOfGDgdjs_9546Game_959532Scene2Code_9546GDDinoVitaObjects1Objects, gdjs.Game_32Scene2Code.mapOfGDgdjs_9546Game_959532Scene2Code_9546GDMediumStarObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27509844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23038652);
 }
 }
 if (isConditionTrue_0) {

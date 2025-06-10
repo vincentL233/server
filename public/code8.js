@@ -54,7 +54,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText7"), gdjs._25490_34892Code.GDNewT
 }
 
 
-};gdjs._25490_34892Code.asyncCallback25590652 = function (runtimeScene, asyncObjectsList) {
+};gdjs._25490_34892Code.asyncCallback23255948 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs._25490_34892Code.localVariables);
 
 { //Subevents
@@ -70,7 +70,7 @@ gdjs._25490_34892Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs._25490_34892Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.network.sendAwaitableAsyncRequest("/postscore", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(1)), "POST", "application/json", runtimeScene.getScene().getVariables().getFromIndex(0), gdjs.VariablesContainer.badVariable), (runtimeScene) => (gdjs._25490_34892Code.asyncCallback25590652(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.network.sendAwaitableAsyncRequest("/postscore", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(1)), "POST", "application/json", runtimeScene.getScene().getVariables().getFromIndex(0), gdjs.VariablesContainer.badVariable), (runtimeScene) => (gdjs._25490_34892Code.asyncCallback23255948(runtimeScene, asyncObjectsList)));
 }
 }
 
